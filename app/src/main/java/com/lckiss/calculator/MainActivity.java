@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-//        CheckFirst();
+        CheckFirst();
 
         //隐藏玩家
         final TextView D = (TextView) findViewById(R.id.D);
@@ -477,8 +477,8 @@ public class MainActivity extends AppCompatActivity {
                     .// 图标
                     setTitle("骚年，第一次吧！")
                     .// 标题
-                    setMessage("由于游戏规则实在太复杂，开发者无力进行功能开发\n" +
-                    "如若需要开发者再加把力.请捐赠支付宝：18692878812\n")
+                    setMessage("由于游戏规则实在太复杂，开发者进行功能开发很费力\n" +
+                    "如若觉得有所帮助.请捐赠支付宝：TiLink Box\n")
                     .setNegativeButton("好的",
                             new DialogInterface.OnClickListener() {
                                 // 取消
