@@ -258,7 +258,9 @@ public class MainActivity extends AppCompatActivity {
                 if (i != j) {
                     if (hz[i] - hz[j] > 0) {
                         rs += tn[i] + tn[j];
-                    } else {
+                    } else if(hz[i] - hz[j]==0){
+                        rs+=0;
+                    }else{
                         rs += (-tn[i] - tn[j]);
                     }
                 }
@@ -405,7 +407,9 @@ public class MainActivity extends AppCompatActivity {
                 if (i != j) {
                     if (hz[i] - hz[j] > 0) {
                         rs += tn[i] + tn[j];
-                    } else {
+                    } else if(hz[i] - hz[j]==0){
+                        rs+=0;
+                    }else{
                         rs += (-tn[i] - tn[j]);
                     }
                 }
