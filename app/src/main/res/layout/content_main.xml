@@ -8,8 +8,8 @@
     tools:context="com.lckiss.calculator.MainActivity"
     tools:showIn="@layout/activity_main">
     <ScrollView
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:fillViewport="true"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -19,6 +19,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
             android:orientation="vertical"
             android:weightSum="10">
 
@@ -31,18 +33,21 @@
                 tools:layout_editor_absoluteY="0dp">
                 <RadioButton
                     android:id="@+id/four"
+                    android:layout_weight="1"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:text="四人打" />
 
                 <RadioButton
                     android:id="@+id/three"
+                    android:layout_weight="1"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:text="三人打" />
 
 
                 <RadioButton
+                    android:layout_weight="1"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:text="不打" />

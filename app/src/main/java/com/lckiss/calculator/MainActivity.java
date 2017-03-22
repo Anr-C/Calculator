@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "TIL-MICE 2017 ©CopyRight", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "TIL-MICE 2017 ©CopyRight blog:lckiss.com", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
