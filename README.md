@@ -31,10 +31,10 @@ A与C，A与D也是这么计算，然后三个值相加为A拖鸟的输赢
 每个玩家的活鸟输赢加上拖鸟输赢
 
 ## 一些截图
-![image](https://github.com/TIL-MICE/Calculator/blob/master/screenshot/1.png)
-![image](https://github.com/TIL-MICE/Calculator/blob/master/screenshot/2.png)
-![image](https://github.com/TIL-MICE/Calculator/blob/master/screenshot/3.png)
-![image](https://github.com/TIL-MICE/Calculator/blob/master/screenshot/4.png)
+<img src="https://github.com/TIL-MICE/Calculator/blob/master/screenshot/1.png" width="540px" height="960px">
+<img src="https://github.com/TIL-MICE/Calculator/blob/master/screenshot/2.png" width="540px" height="960px">
+<img src="https://github.com/TIL-MICE/Calculator/blob/master/screenshot/3.png" width="540px" height="960px">
+<img src="https://github.com/TIL-MICE/Calculator/blob/master/screenshot/4.png" width="540px" height="960px">
 
 
 
